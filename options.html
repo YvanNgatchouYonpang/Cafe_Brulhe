@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options-Café Brulhé</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="img/brulhe-logo.svg" alt="Logo"></a>
+        </header>
+
+        <main>
+            <h2 class="mt-5">Étape 2 - Configuration du breuvage</h2>
+            <p>Grain</p>
+            <form action="confirmation.html">
+                <div class="row">
+
+                    <div class="col-12 text-center col-lg-4">
+                        <img src="img/arabica.webp" alt="arabica">
+                        <div class="form-check d-flex justify-content-center">
+                            <input class="form-check-input" type="radio" name="group1" id="radio1" checked>
+                            <label class="form-check-label" for="radio1">Arabica</label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center col-lg-4">
+                        <img src="img/robusta.webp" alt="robusta">
+                        <div class="form-check d-flex justify-content-center">
+                            <input class="form-check-input" type="radio" name="group1" id="radio2">
+                            <label class="form-check-label" for="radio2">Robusta</label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center col-lg-4">
+                        <img src="img/kopi-luwak.webp" alt="kopi-luwak">
+                        <div class="form-check d-flex justify-content-center">
+                            <input class="form-check-input" type="radio" name="group1" id="radio3">
+                            <label class="form-check-label" for="radio3">kopi-luwak</label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <p>Options</p>
+
+                <div class="row">
+                    <div class="mt-4 col-2">
+                        <label for="range-laits" class="col-form-label">Nombre de laits :</label>
+                    </div>
+                    <div class="mt-4 col">
+                        <input type="range" class="form-range" min="0" max="5" value="0" id="range-laits">
+                        <div class="range-steps">
+                            <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="mt-4 col-2">
+                        <label for="range-sucres" class="col-form-label">Nombre de sucres :</label>
+                    </div>
+                    <div class="mt-4 col">
+                        <input type="range" class="form-range" min="0" max="3" value="0" id="range-sucres">
+                        <div class="range-steps">
+                            <span>0</span><span>1</span><span>2</span><span>3</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="mt-4 col-2">
+                        <label for="range-expresso" class="col-form-label">Doses d'expresso :</label>
+                    </div>
+                    <div class="mt-4 col">
+                        <input type="range" class="form-range" min="0" max="3" value="0" id="range-expresso">
+                        <div class="range-steps">
+                            <span>0</span><span>1</span><span>2</span><span>3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Commander</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
