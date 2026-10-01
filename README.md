@@ -76,19 +76,19 @@ Ce travail permet de mettre en pratique :
 
 ### 🏠 Page d'accueil
 
-![Page d'accueil](screenshots/accueil.png)
+![Page d'accueil](accueil.png)
 
 ### ☕ Page de commande
 
-![Page de commande](screenshots/commande.png)
+![Page de commande](commande.png)
 
 ### ⚙️ Configuration des options
 
-![Page des options](screenshots/options.png)
+![Page des options](configuration.png)
 
 ### ✅ Confirmation de la commande
 
-![Page de confirmation](screenshots/confirmation.png)
+![Page de confirmation](confirmation.png)
 
 
 ## 👨‍💻 Auteur
