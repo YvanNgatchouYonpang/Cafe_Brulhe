@@ -76,7 +76,7 @@ Ce travail permet de mettre en pratique :
 
 ### 🏠 Page d'accueil
 
-![Page d'accueil](page_accueil.png)
+![Page d'accueil](page_acceuil.png)
 
 ### ☕ Page de commande
 
