@@ -72,6 +72,25 @@ Ce travail permet de mettre en pratique :
 * l'utilisation de Bootstrap;
 * l'organisation d'un projet web.
 
+## 📸 Aperçu du projet
+
+### 🏠 Page d'accueil
+
+![Page d'accueil](screenshots/accueil.png)
+
+### ☕ Page de commande
+
+![Page de commande](screenshots/commande.png)
+
+### ⚙️ Configuration des options
+
+![Page des options](screenshots/options.png)
+
+### ✅ Confirmation de la commande
+
+![Page de confirmation](screenshots/confirmation.png)
+
+
 ## 👨‍💻 Auteur
 
 **Yvan Ngantchou Yonpang**
