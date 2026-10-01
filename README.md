@@ -1,4 +1,4 @@
-# ☕ Café Brulhé — Travail Pratique 2
+# ☕ Café Brulhé 
 
 Site web de commande de café réalisé dans le cadre d'un travail pratique en développement web.
 
